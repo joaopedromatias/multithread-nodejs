@@ -25,9 +25,9 @@ However, not all blocking tasks are automatically offloaded to the threadpool. T
 
 The advantage of using multithreading that this repository focus is on decreasing the execution time of a program.
 
-`./single-thread.js` -> long blocking tasks executed without multithreading
-`./multithreading.js` -> long blocking tasks executed using multithreading
-`./long-blocking-task.js` -> represents a long blocking task, which in a real application scnario could be copying some objects from an S3 bucket to another bucket.
+- `./single-thread.js` -> long blocking tasks executed without multithreading
+- `./multithreading.js` -> long blocking tasks executed using multithreading
+- `./long-blocking-task.js` -> represents a long blocking task, which in a real application scnario could be copying some objects from an S3 bucket to another bucket.
 
 ## Results
 
